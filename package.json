@@ -1,0 +1,17 @@
+{
+  "name": "3d-viewer-skp",
+  "version": "1.0.0",
+  "description": "3D Viewer per file SKP, OBJ e 3DS",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step needed - static files in www/'",
+    "cap:init": "npx cap add android && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/android": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
